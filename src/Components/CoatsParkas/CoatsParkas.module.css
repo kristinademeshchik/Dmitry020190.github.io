@@ -1,0 +1,40 @@
+.wrappProd {
+  width: 250px;
+}
+
+.wrappImgProd {
+  width: 100%;
+  max-height: 300px;
+  
+}
+
+.imgProd {
+  width: 99%;
+  height: 100%;
+}
+
+.wrappInfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 5px;
+}
+
+.name {
+  text-align: center;
+}
+
+.name, .review {
+  
+  font-size: 12px;
+}
+
+.cost {
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 760px) {
+  .wrappProd {
+    max-width: 230px;
+  }
+}

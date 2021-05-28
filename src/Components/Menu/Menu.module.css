@@ -1,0 +1,89 @@
+.wrappSizeSandMenu {
+  width: 230px;
+  height: 100vh;
+  background: white;
+  position: absolute;
+  transform: translate(-25px, -54px);
+  display: none;
+}
+
+.wrappClose {
+  display: flex;
+  justify-content: space-between;
+  padding: 40px 20px;
+  font-size: 13px;
+}
+
+.currency{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.wrappImgClose {
+  width: 18px;
+  height: 18px; 
+}
+
+.close {
+  width: 100%;
+  height: 100%;
+}
+
+.wrappItemElement {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+}
+
+.itemElement {
+  padding: 20px;
+}
+
+.wrappItemElementInfo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.itemElementInfo {
+  font-size: 11px;
+  padding: 8px 20px;;
+}
+
+.wrappClose, .itemElement {
+  border-bottom: 1px solid rgba(211, 211, 211, 0.4);
+}
+
+.wrappItemElement a.active {
+  font-weight: bold;
+}
+
+.itemElementInfo a.active {
+  font-weight: bold;
+}
+
+.sandMenu {
+  width: 26px;
+  height: 20px;
+  display: flex;
+  flex-direction: column;
+  display: none;
+}
+
+.sandItem {
+  padding-bottom: 8px;
+  border-top: 1px solid;
+}
+
+.sandItem:nth-child(2) {
+  width: 20px;
+}
+
+
+
+@media screen and (max-width: 760px) {
+  .sandMenu {
+    display: block;
+  }
+}

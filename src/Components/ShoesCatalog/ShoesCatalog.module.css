@@ -1,0 +1,39 @@
+.wrappParagraph {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrappParagraph div {
+  padding-bottom: 20px;
+}
+
+.wrappCatalog {
+  display: flex;
+  padding: 30px;
+}
+
+.catalog {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.wrappNameParagraph {
+  font-size: 11px;
+}
+
+.wrappItemParagraph div {
+  font-size: 14px;
+}
+
+.paragraph a.active {
+  font-weight: bold;
+}
+
+@media screen and (max-width: 760px) {
+  .wrappParagraph {
+    display: none;
+  }
+}

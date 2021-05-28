@@ -1,0 +1,192 @@
+.wrappLeatherJacketsOpen {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.leatherJacketsOpen {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.wrappImages{
+  width: 100px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.images {
+  width: 95px;
+  height: 90px;
+}
+
+.jacketItem {
+  width: 100%;
+  height: 100%;
+}
+
+.wrappImageFront, .frontImages{
+  width: 450px;
+  height:450px;
+}
+
+.frontImages:nth-child(1){
+  display: block;
+}
+
+.frontImages:nth-child(2){
+  display: none;
+}
+
+.frontImages:nth-child(3){
+  display: none;
+}
+
+.frontImages:nth-child(4){
+  display: none;
+}
+
+.frontImages:nth-child(5){
+  display: none;
+}
+
+.jacketItemFront {
+  width: 100%;
+  height: 100%;
+}
+
+.wrappChoose{
+  width: 600px;
+  height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wrappnameProd {
+  display: flex;
+  justify-content: space-around;
+}
+
+.nameProd {
+  font-size: 19px;
+  font-weight: bold;
+  letter-spacing: 5px;
+  text-align: center;
+}
+
+.wrappCurrensy {
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #DCDCDC;
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.priceProd {
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.nameColor {
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-align: center;
+
+}
+
+.colorProd {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.color {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #DCDCDC;
+}
+
+.itemColor {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.color:nth-child(1) {
+  margin-right: 3px;
+}
+
+.color:nth-child(2) {
+  margin-left: 3px;
+}
+
+.color:nth-child(1) .itemColor {
+  background: brown;
+}
+
+.color:nth-child(2) .itemColor {
+  background: black;
+}
+
+.sizeProd {
+  display: flex;
+  width: 80%;
+  height: 7%;
+  justify-content: space-around;
+}
+
+.nameSize {
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.size {
+  width: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  letter-spacing: 1px;
+  border: 1px solid #DCDCDC;
+}
+
+.buyProd {
+  padding: 15px 210px;
+  border-radius: 5px;
+  background: linear-gradient(#509977, #2c5843);
+  color: white;
+  font-weight: bold;
+  font-size: 16px;
+  letter-spacing: 5px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.7)
+}
+
+.wrappbackTo {
+  padding: 15px 50px;
+  border-radius: 5px;
+  background: black;
+  color: white;
+  font-weight: bold;
+  font-size: 13px;
+  letter-spacing: 5px;
+  margin-top: 63px;
+}
+
+
+
+
+
+

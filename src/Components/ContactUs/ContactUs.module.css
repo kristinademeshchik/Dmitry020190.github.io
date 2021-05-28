@@ -1,0 +1,115 @@
+.containerWrappContactUs1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrappContactUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+}
+
+.contactUsBlock1 {
+  padding: 50px;
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+.contactUsBlock2 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wrappText {
+  padding-bottom: 40px;
+}
+
+.containerWrappContactUs2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.contactUsBlock3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.infoName1, .infoName3 {
+  width: 480px;
+  padding-bottom: 15px;
+  font-size: 11px;
+  letter-spacing: 4px;
+}
+
+.infoName2, .infoName4 {
+  width: 480px;
+  height: 40px;
+  border: 1px solid #C0C0C0;
+}
+
+.infoName1 {
+  margin-right: 15px;
+}
+
+.infoName5 {
+  padding: 50px 0 15px 0;
+  font-size: 11px;
+  letter-spacing: 4px;
+}
+
+.infoName6 {
+  padding: 5px;
+  min-height: 90px;
+  border: 1px solid #C0C0C0; 
+}
+
+.wrappContainerContactUs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 150px;
+}
+
+@media screen and (max-width: 760px) {
+  .wrappContainerContactUs {
+    padding: 0 10px;
+  }
+
+  .contactUsBlock1 {
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .wrappText {
+    font-size: 13px;
+    padding-bottom: 20px;
+  }
+
+  .infoName1 {
+    margin-right: 0;
+  }
+  
+  .infoName1, .infoName3, .infoName2, .infoName4 {
+    width: 474px;
+  }
+
+  .infoName1, .infoName3 {
+    padding: 15px 0 5px 0;
+    font-size: 9px;
+    letter-spacing: 9px;
+  }
+
+  .infoName5 {
+    font-size: 9px;
+    padding-bottom: 5px;
+  }
+  
+  .contactUsBlock3 {
+    flex-direction: column;
+  }
+  
+}
+

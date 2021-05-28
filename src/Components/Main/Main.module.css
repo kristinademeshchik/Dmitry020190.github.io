@@ -1,0 +1,22 @@
+.main {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.wrappMainProd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: -1;
+}
+
+.wrappButtonViewing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}

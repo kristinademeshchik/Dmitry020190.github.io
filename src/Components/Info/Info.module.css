@@ -1,0 +1,24 @@
+.wrappInfo {
+  display: flex;
+  align-items: center;
+  height: 25px;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.info {
+  margin-left: 30px;
+  font-size: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 760px) {
+  .wrappInfo {
+    display: none;
+  }
+}
+
+

@@ -1,0 +1,180 @@
+.wrappFooter {
+  background: black;
+  color: white;
+  font-size: 13px;
+  margin-top: 30px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between; 
+  padding: 60px 40px 40px 40px;
+}
+
+.informContact {
+  display: flex;
+  flex-direction: column;
+}
+
+.itemContact {
+  padding-bottom: 20px;
+}
+
+.wrappInputEmail {
+  display: flex;
+  flex-direction: column;
+  width: 220px;
+}
+
+.wrappEmail {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid;
+}
+
+.enterEmail {
+  width: 30px;
+  height: 18px;
+}
+
+.email {
+  width: 100%;
+  height: 100%;
+  filter: invert(100%); 
+  -webkit-filter: invert(100%);
+}
+
+.linkFoot {
+  display: flex;
+  flex-direction: column;
+}
+
+.linkFoot > .link:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.wrappIconLogo {
+  width: 200px;
+  height: 130px;
+}
+
+.iconLogo {
+  width: 100%;
+  height: 100%;
+}
+
+.wrappInfoPay {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 60px;
+}
+
+.wrappIconPay {
+  width: 300px;
+  height: 45px;
+}
+
+.iconPay {
+  width: 100%;
+  height: 100%;
+}
+
+.year {
+  padding: 15px;
+}
+
+.rigths {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  padding: 0 10px ;
+}
+
+.item:first-child {
+  border-right: 1px solid;
+}
+
+@media screen and (max-width: 760px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 5px 20px 5px 20px;
+  }
+
+  .informContact {
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  .footer > div:not(:first-child) {
+    margin-top: 30px;
+  }
+
+  .footer > div:not(:last-child) {
+    border-bottom: 1px solid rgba(105, 105, 105, 0.3);
+    width: 100%;
+  }
+
+  .footer > div {
+    padding-bottom: 30px;
+  }
+  
+  .itemContact{
+    padding: 15px 0 0 0;
+  }
+
+  .wrappInputEmail {
+    width: 100%;
+    text-align: center; 
+  }
+  
+  .wrappEmail {
+    justify-content: center;
+    margin-top: 25px;
+    padding: 0;
+    border: none;
+  }
+
+  .infEmail {
+    padding-right: 130px;
+  }
+
+  .infEmail, .enterEmail {
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+    font-size: 16px;
+  }
+
+  .linkFoot {
+    align-items: center;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

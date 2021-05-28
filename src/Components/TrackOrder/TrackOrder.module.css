@@ -1,0 +1,68 @@
+.trackOrder {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 0 150px;
+}
+
+.name {
+  padding: 50px;
+  font-size: 25px;
+  font-weight: bolder;
+  letter-spacing: 3px;
+}
+
+
+
+.item:nth-child(3) {
+  padding: 15px 0 45px 0;
+}
+
+.item:nth-child(4) {
+  font-weight: bold;
+  padding-top: 15px;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.item:last-child {
+  padding-top: 15px;
+  
+}
+
+@media screen and (max-width: 760px) {
+  .trackOrder {
+    padding: 0 10px;
+  }
+
+  .name {
+    padding: 25px;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+  }
+
+  .item {
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .trackOrder .item:nth-child(5) {
+    padding: 15px 10px 0 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

@@ -1,0 +1,263 @@
+.blockNav {
+  position: relative;
+}
+
+.wrappNav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  top: 26px;
+  background: white;
+  border-bottom: 1px solid #DCDCDC;
+}
+
+.nav {
+  font-size: 12px;
+}
+
+.wrappMenu {
+  display: none;
+}
+
+.wrappSearch {
+  width: 25px;
+  height: 25px;
+  
+}
+
+.search {
+  width: 100%;
+  height: 100%
+}
+
+.wrappCurrency {
+  display: flex;
+  align-items: center;
+}
+
+.currency {
+  font-size: 16px;
+}
+
+.wrappLogo {
+  width: 70px;
+  height: 65px;
+}
+
+.logo {
+  width: 100%;
+  height: 100%;
+}
+
+.wrappBlok1, .wrappBlok3, .wrappBlok2 {
+  display: flex;
+  align-items: center;
+}
+
+.wrappBlok1 {  
+  justify-content: space-between;
+  width: 47%;
+  }
+
+.wrappBlok2 {
+  justify-content: center;
+  min-width: 6%;
+}
+
+.wrappBlok3 {
+  justify-content: space-between; 
+  width: 47%;
+  
+}
+
+.wrappBlok1_1 {
+  margin-left: 30px;
+}
+
+.wrappCurrency .wrappBlok1_1 {
+    display: none;
+  }
+
+
+.wrappBlok1_2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.wrappBlok1_2 .nav {
+  margin-right: 30px;
+}
+
+.wrappBlok3_1 {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.wrappBlok3_2 {
+  margin-right: 30px;
+}
+
+.wrappBlok3_1 .nav {
+  margin-left: 30px;
+}
+
+.wrappBasket {
+  width: 25px;
+  height: 23px;
+  padding-bottom: 3px;
+}
+
+.basket {
+  width: 100%;
+  height: 100%;
+}
+
+.saleInfo {
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  background: black;
+  color: white;
+  font-size: 12px;
+  margin-top: 105px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+  
+  .wrappBlok1 {  
+    width: 30%;
+  }
+  
+  .wrappBlok1_1 {
+    margin-left: 0;
+  }
+
+  .wrappBlok1_2 {
+    display: grid;
+    grid-template-areas:  "nav1 nav2"
+                          "nav3 nav3";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .nav:nth-child(1) {
+    grid-area: nav1;
+  }
+
+  .nav:nth-child(2) {
+    grid-area: nav2;
+  }
+
+  .nav:nth-child(3) {
+    grid-area: nav3;
+  }
+
+  .wrappBlok1_2 .nav {
+    margin-right: 0;
+  }
+
+  .wrappBlok3 {
+    width: 30%;
+  }
+  
+  .wrappBlok3_1 {
+    display: grid;
+    grid-template-areas:  "nav1 nav1"
+                          "nav2 nav3";
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .nav:nth-child(1) {
+    grid-area: nav1;
+  }
+
+  .nav:nth-child(2) {
+    grid-area: nav2;
+  }
+
+  .nav:nth-child(3) {
+    grid-area: nav3;
+  }
+  
+  .wrappBlok3_1 .nav {
+    margin-left: 0;
+  }
+
+  .wrappBlok3_2 {
+    margin-left: 25px;
+  }
+  
+}
+
+@media screen and (max-width: 760px) {
+
+  .currency, .wrappBlok1_2, .wrappBlok3_1 {
+    display: none;
+  }
+
+  .wrappBlok1 .wrappBlok1_1 {
+    display: none;
+  }
+  
+  .wrappCurrency .wrappBlok1_1 {
+    display: block;
+  }
+
+  .wrappBlok3 {
+    justify-content: flex-end; 
+  }
+
+  .wrappBlok3_2 {
+    margin-right: 0;
+  }
+
+  .wrappLogo {
+    width: 50px;
+    height: 48px;
+  }
+
+  .wrappNav {
+    top: 0;
+  }
+  .saleInfo{
+    margin-top: 88px;
+  }
+
+  .wrappMenu {
+    display: block;
+  }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
